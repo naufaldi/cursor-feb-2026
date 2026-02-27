@@ -61,7 +61,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
       );
     },
     ul({ children }) {
-      return <ul className="space-y-6 text-lg md:text-xl my-8">{children}</ul>;
+      return <ul className="space-y-6 text-lg md:text-xl my-8 list-none">{children}</ul>;
     },
     ol({ children }) {
       return (
