@@ -3,7 +3,7 @@ import { Slide } from "./types";
 export const slides: Slide[] = [
   {
     id: 1,
-    title: "Rethinking AI Prompting",
+    title: "Agentic AI for Builders: From Prompt to Autonomous Coding Loop",
     content: "From One-Shot to Agentic Workflows",
     type: "cover",
   },
